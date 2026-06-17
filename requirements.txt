@@ -1,0 +1,7 @@
+numpy
+h5py
+scipy
+matplotlib
+cupy-cuda12x
+uuid
+shutils
