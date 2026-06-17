@@ -88,9 +88,9 @@ I tested my kernels out on NVIDIA's `A100` and `T4` GPUs, but the results below 
 | **1024 x 1024** | 11.881 ms | 5.203 ms | 5.023 ms | ~283.000 s |
 
 Speedup between `FNUM_RESTRICT` and `CPU` implementations:
-- `256x256`: $6.720/1.594 = 4215.8\text{x speedup}$
-- `512x512`: $30.286/2.138 = 14165.6\text{x speedup}$
-- `1024x1024`: $283000/5.023 = 56340.8\text{x speedup}$
+- `256x256`: 6.720/1.594 = `4215.8x speedup`
+- `512x512`: 30.286/2.138 = `14165.6x speedup`
+- `1024x1024`: 283000/5.023 = `56340.8x speedup`
 
 ***NOTE: THE CPU IMPLEMENTATION IS IN PYTHON, WHICH MAKES THE CPU VERSION MUCH SLOWER THAN IT COULD BE***. (THAT BEING SAID, A C/C++ CPU IMPLEMENTATION WOULD STILL BE 10-100x SLOWER THAN A GPU RESPECTIVE TO EACH GRID DIMENSION)
 
